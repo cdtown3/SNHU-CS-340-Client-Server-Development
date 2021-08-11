@@ -1,5 +1,9 @@
 # SNHU-CS-340-Client-Server-Development
-Imported data into MongoDB, created a CRUD app in python using PyMongo as my DB driver. I then used Plotly Dash to access that data and create visualizations.
+This project contains a Python CRUD module and Plotly Dash application created in Jupyter Notebook. I imported data from the Austin Animal Shelter collection into MongoDB via terminal, created a CRUD module in python using PyMongo as my DB driver. I then created the Dash app that allows users to filter (re-query) their data using preset filters. A DataTable is automatically updated along with a histograph and map.
+
+# Screencast
+This short screencast is an example of the application’s functionality. The program itself is first shown to give my identification, and then the dashboard is shown along with the various filter buttons.
+https://youtu.be/-76g_xdL9Rk
 
 # CS 340 Final Project
 Drew Townsend
@@ -20,11 +24,6 @@ You must have access to the MongoDB server with valid credentials. You then need
 # Usage
 Functionality
 To use the program, simply run the application and if everything connects properly, you should see a DataTable containing the AAC database rows. You should then be able to click on the various filter buttons, which will re-query the database with certain attributes. The map and graph should also change based on your filter.
-
-
-# Screencast
-This short screencast is an example of the application’s functionality. The program itself is first shown to give my identification, and then the dashboard is shown along with the various filter buttons.
-https://youtu.be/-76g_xdL9Rk
 
 # Contact:
 Your name:
