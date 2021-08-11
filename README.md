@@ -23,7 +23,7 @@ To use the program, simply run the application and if everything connects proper
 
 
 # Screencast
-This short screencast is an example of the application’s functionality. The program itself is first shown to give my identification, and then the dashboard to shown along with the various filter buttons.
+This short screencast is an example of the application’s functionality. The program itself is first shown to give my identification, and then the dashboard is shown along with the various filter buttons.
 https://youtu.be/-76g_xdL9Rk
 
 # Contact:
