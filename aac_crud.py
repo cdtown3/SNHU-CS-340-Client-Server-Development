@@ -1,7 +1,7 @@
 #     Program: Austin Animal Shelter CRUD
 #      Author: Drew Townsend
 #        Date: 08/05/21
-# Description: Module connections to MongoDB and allows users to utilize CRUD functionality
+# Description: Module connects to MongoDB and allows users to utilize CRUD functionality
 
 from pymongo import MongoClient
 from bson.objectid import ObjectId
@@ -27,6 +27,7 @@ class AnimalShelter(object):
 # Create method to implement the R in CRUD. 
     def read(self, data):
         if data is not None:
+            # Leaving out ObjectID for Pandas DataFrame
             return self.database.animals.find(data, { '_id': 0} )
                 
         else:
