@@ -5,6 +5,15 @@ This project contains a Python CRUD module and Plotly Dash application created i
 This short screencast is an example of the application’s functionality. The program itself is first shown to give my identification, and then the dashboard is shown along with the various filter buttons.
 https://youtu.be/-76g_xdL9Rk
 
+# aac_crud.py
+Allows a connection to the MongoDB and simplifies CRUD functionality
+
+# aac_script.ipynd
+Jupyter Notebook script that tests aac_crud.py's functionality
+
+# ProjectTwoDashboard.ipynd
+Creates a Plotly Dash web app, which uses Pandas DataFrame, Leaflet, and Dash's Core Components
+
 # CS 340 Final Project
 Drew Townsend
 08/10/21
